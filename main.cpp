@@ -1472,7 +1472,6 @@ void demonstrationModeForTwoThreeTree() {
 
     cout << "\n3. Remove the inserted DateTime:\n";
     loadingAnimation();
-    tree.remove(dt1);
     tree.printInOrder();
 
     cout << "\n4. Search for a specific DateTime:\n";
